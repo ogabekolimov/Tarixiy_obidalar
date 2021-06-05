@@ -25,7 +25,7 @@ body{
 
 #viloyat{
     
-    height: 30px;
+    height: 40px;
     font-size: 30px;
     background: none;
     border: none;
@@ -34,7 +34,7 @@ body{
 
 #obida{
     margin-left: 50px;
-    height: 30px;
+    height: 40px;
     font-size: 30px;
     background: none;
     border: none;
@@ -43,7 +43,7 @@ body{
 
 #button{
     width: 10%;
-    height: 30px;
+    height: 40px;
     margin-left: 60px;
     
     font-size: 25px;
@@ -61,6 +61,13 @@ body{
 
 #divElement{
     padding: 30px;
+
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
  h2{
@@ -72,4 +79,32 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px 5px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    font-size: 20px;
+    width: 20%;
+    height: 20%;
+    margin-top: 50px;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
 }

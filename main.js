@@ -86,14 +86,6 @@ button.addEventListener('click', () => {
             costForm.addEventListener('keyup', (event) => {
                 if(event.keyCode == 13) {
                     pChildrenElement.textContent = inputChildren.value * item.costForChildren
-                    
-                    
-                }
-            })
-
-            costForm.addEventListener('keyup', (event) => {
-                if(event.keyCode == 13) {
-                    
                     pAdultsElement.textContent = inputAdults.value * item.cost
                     
                 }
@@ -103,6 +95,7 @@ button.addEventListener('click', () => {
             divElement.appendChild(newimgElement)
             divElement.appendChild(costForm)
             divElement.appendChild(pChildrenElement)
+            divElement.appendChild(pAdultsElement)
         }
     })
 })
